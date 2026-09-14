@@ -1,0 +1,13 @@
+case_id,domain,modality,claim,verdict,risk_score,confidence,category
+VF001,"Banking, Finance & Stock Markets",Text,"A bank deposit is generally a financial product used to hold money safely.",Authentic,12,0.91,Banking
+VF002,"Banking, Finance & Stock Markets",Text,"A guaranteed 30% annual return is available on every bank savings account.",Likely False,94,0.97,Banking
+VF003,"Banking, Finance & Stock Markets",Text,"Stock prices can rise or fall based on market conditions and investor expectations.",Authentic,18,0.93,Finance
+VF004,"Education & Academic Sector",Text,"The Earth revolves around the Sun.",Authentic,5,0.99,Science
+VF005,"Education & Academic Sector",Text,"All university examinations have been permanently cancelled worldwide.",Likely False,96,0.98,Education
+VF006,"Education & Academic Sector",Text,"Regular revision and practice can improve academic performance.",Authentic,15,0.94,Education
+VF007,"Public Policy",Text,"A government policy announcement should be verified against an official government source.",Authentic,8,0.96,Public Policy
+VF008,"Public Policy",Text,"A viral social-media post alone is sufficient proof of a national emergency declaration.",Likely False,89,0.95,Public Policy
+VF009,"Banking, Finance & Stock Markets",Text,"The FDIC maintains information about insured banks in the United States.",Authentic,10,0.96,Banking
+VF010,"Banking, Finance & Stock Markets",Text,"Investments in financial markets always generate guaranteed profits.",Likely False,97,0.99,Finance
+VF011,"Education & Academic Sector",Text,"Academic claims should be supported by reliable educational or scholarly sources.",Authentic,9,0.95,Academic Research
+VF012,"Public Policy",Text,"Official policy documents can be used as primary evidence when checking a policy claim.",Authentic,7,0.97,Government

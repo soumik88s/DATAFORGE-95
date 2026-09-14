@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "id": "ds-1789360133596-330",
+    "name": "Corporate_Department_Budgets",
+    "description": "Excel spreadsheet ingestion test",
+    "category": "Enterprise Operational Metrics",
+    "source": "HR & Finance Systems",
+    "uploadedBy": "admin",
+    "ownerId": "u-1",
+    "originalFileName": "test_excel.xlsx",
+    "fileSize": 16496,
+    "storagePath": "/app/applet/uploads/test_excel-1789360133570-100c970ebc78.xlsx",
+    "createdAt": "2026-09-14T04:28:53.596Z",
+    "updatedAt": "2026-09-14T04:28:53.596Z",
+    "isDemo": false,
+    "isShared": false,
+    "uploadDate": "2026-09-14T04:28:53.596Z",
+    "rowCount": 4,
+    "columnCount": 4,
+    "fileType": "EXCEL",
+    "processingStatus": "READY",
+    "lastAnalyzedTimestamp": "2026-09-14T04:28:59.027Z",
+    "columns": [
+      {
+        "name": "department",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 4,
+        "sampleValues": [
+          "Engineering",
+          "Operations",
+          "Marketing",
+          "Research"
+        ]
+      },
+      {
+        "name": "headcount",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 4,
+        "sampleValues": [
+          45,
+          28,
+          18,
+          12
+        ]
+      },
+      {
+        "name": "budget_usd",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 4,
+        "sampleValues": [
+          1200000,
+          650000,
+          420000,
+          550000
+        ]
+      },
+      {
+        "name": "efficiency_rating",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 4,
+        "sampleValues": [
+          94.2,
+          89.5,
+          82.1,
+          96
+        ]
+      }
+    ],
+    "duplicateCount": 0,
+    "qualityScore": {
+      "completeness": 100,
+      "validity": 100,
+      "consistency": 100,
+      "uniqueness": 100,
+      "missingCells": 0,
+      "totalMissingCells": 0,
+      "missingCellsPct": 0,
+      "duplicateRows": 0,
+      "duplicateRowsPct": 0,
+      "outlierCount": 0,
+      "overallScore": 100,
+      "grade": "A",
+      "issues": []
+    }
+  },
+  "records": [
+    {
+      "department": "Engineering",
+      "headcount": 45,
+      "budget_usd": 1200000,
+      "efficiency_rating": 94.2
+    },
+    {
+      "department": "Operations",
+      "headcount": 28,
+      "budget_usd": 650000,
+      "efficiency_rating": 89.5
+    },
+    {
+      "department": "Marketing",
+      "headcount": 18,
+      "budget_usd": 420000,
+      "efficiency_rating": 82.1
+    },
+    {
+      "department": "Research",
+      "headcount": 12,
+      "budget_usd": 550000,
+      "efficiency_rating": 96
+    }
+  ]
+}

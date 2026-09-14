@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "id": "ds-1789361714611-158",
+    "name": "Test",
+    "description": "Uploaded dataset.",
+    "category": "Stock Market & Finance",
+    "source": "Manual Ingestion",
+    "uploadedBy": "src",
+    "ownerId": "u-1789361542712",
+    "originalFileName": "Test Data set.csv",
+    "fileSize": 1824,
+    "storagePath": "D:\\Downloads\\dataforge-95\\uploads\\Test_Data_set-1789361714592-94b0a5eca4f4.csv",
+    "createdAt": "2026-09-14T04:55:14.611Z",
+    "updatedAt": "2026-09-14T04:55:14.611Z",
+    "isDemo": false,
+    "isShared": false,
+    "uploadDate": "2026-09-14T04:55:14.611Z",
+    "rowCount": 12,
+    "columnCount": 8,
+    "fileType": "CSV",
+    "processingStatus": "READY",
+    "lastAnalyzedTimestamp": "2026-09-14T04:55:14.611Z",
+    "columns": [
+      {
+        "name": "case_id",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 12,
+        "sampleValues": [
+          "VF001",
+          "VF002",
+          "VF003",
+          "VF004",
+          "VF005"
+        ]
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 3,
+        "sampleValues": [
+          "Banking, Finance & Stock Markets",
+          "Banking, Finance & Stock Markets",
+          "Banking, Finance & Stock Markets",
+          "Education & Academic Sector",
+          "Education & Academic Sector"
+        ]
+      },
+      {
+        "name": "modality",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 1,
+        "sampleValues": [
+          "Text",
+          "Text",
+          "Text",
+          "Text",
+          "Text"
+        ]
+      },
+      {
+        "name": "claim",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 12,
+        "sampleValues": [
+          "A bank deposit is generally a financial product used to hold money safely.",
+          "A guaranteed 30% annual return is available on every bank savings account.",
+          "Stock prices can rise or fall based on market conditions and investor expectations.",
+          "The Earth revolves around the Sun.",
+          "All university examinations have been permanently cancelled worldwide."
+        ]
+      },
+      {
+        "name": "verdict",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 2,
+        "sampleValues": [
+          "Authentic",
+          "Likely False",
+          "Authentic",
+          "Authentic",
+          "Likely False"
+        ]
+      },
+      {
+        "name": "risk_score",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 12,
+        "sampleValues": [
+          12,
+          94,
+          18,
+          5,
+          96
+        ]
+      },
+      {
+        "name": "confidence",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 8,
+        "sampleValues": [
+          0.91,
+          0.97,
+          0.93,
+          0.99,
+          0.98
+        ]
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 7,
+        "sampleValues": [
+          "Banking",
+          "Banking",
+          "Finance",
+          "Science",
+          "Education"
+        ]
+      }
+    ],
+    "duplicateCount": 0,
+    "qualityScore": {
+      "completeness": 100,
+      "validity": 100,
+      "consistency": 100,
+      "uniqueness": 100,
+      "missingCells": 0,
+      "totalMissingCells": 0,
+      "missingCellsPct": 0,
+      "duplicateRows": 0,
+      "duplicateRowsPct": 0,
+      "outlierCount": 0,
+      "overallScore": 100,
+      "grade": "A",
+      "issues": []
+    }
+  },
+  "records": [
+    {
+      "case_id": "VF001",
+      "domain": "Banking, Finance & Stock Markets",
+      "modality": "Text",
+      "claim": "A bank deposit is generally a financial product used to hold money safely.",
+      "verdict": "Authentic",
+      "risk_score": 12,
+      "confidence": 0.91,
+      "category": "Banking"
+    },
+    {
+      "case_id": "VF002",
+      "domain": "Banking, Finance & Stock Markets",
+      "modality": "Text",
+      "claim": "A guaranteed 30% annual return is available on every bank savings account.",
+      "verdict": "Likely False",
+      "risk_score": 94,
+      "confidence": 0.97,
+      "category": "Banking"
+    },
+    {
+      "case_id": "VF003",
+      "domain": "Banking, Finance & Stock Markets",
+      "modality": "Text",
+      "claim": "Stock prices can rise or fall based on market conditions and investor expectations.",
+      "verdict": "Authentic",
+      "risk_score": 18,
+      "confidence": 0.93,
+      "category": "Finance"
+    },
+    {
+      "case_id": "VF004",
+      "domain": "Education & Academic Sector",
+      "modality": "Text",
+      "claim": "The Earth revolves around the Sun.",
+      "verdict": "Authentic",
+      "risk_score": 5,
+      "confidence": 0.99,
+      "category": "Science"
+    },
+    {
+      "case_id": "VF005",
+      "domain": "Education & Academic Sector",
+      "modality": "Text",
+      "claim": "All university examinations have been permanently cancelled worldwide.",
+      "verdict": "Likely False",
+      "risk_score": 96,
+      "confidence": 0.98,
+      "category": "Education"
+    },
+    {
+      "case_id": "VF006",
+      "domain": "Education & Academic Sector",
+      "modality": "Text",
+      "claim": "Regular revision and practice can improve academic performance.",
+      "verdict": "Authentic",
+      "risk_score": 15,
+      "confidence": 0.94,
+      "category": "Education"
+    },
+    {
+      "case_id": "VF007",
+      "domain": "Public Policy",
+      "modality": "Text",
+      "claim": "A government policy announcement should be verified against an official government source.",
+      "verdict": "Authentic",
+      "risk_score": 8,
+      "confidence": 0.96,
+      "category": "Public Policy"
+    },
+    {
+      "case_id": "VF008",
+      "domain": "Public Policy",
+      "modality": "Text",
+      "claim": "A viral social-media post alone is sufficient proof of a national emergency declaration.",
+      "verdict": "Likely False",
+      "risk_score": 89,
+      "confidence": 0.95,
+      "category": "Public Policy"
+    },
+    {
+      "case_id": "VF009",
+      "domain": "Banking, Finance & Stock Markets",
+      "modality": "Text",
+      "claim": "The FDIC maintains information about insured banks in the United States.",
+      "verdict": "Authentic",
+      "risk_score": 10,
+      "confidence": 0.96,
+      "category": "Banking"
+    },
+    {
+      "case_id": "VF010",
+      "domain": "Banking, Finance & Stock Markets",
+      "modality": "Text",
+      "claim": "Investments in financial markets always generate guaranteed profits.",
+      "verdict": "Likely False",
+      "risk_score": 97,
+      "confidence": 0.99,
+      "category": "Finance"
+    },
+    {
+      "case_id": "VF011",
+      "domain": "Education & Academic Sector",
+      "modality": "Text",
+      "claim": "Academic claims should be supported by reliable educational or scholarly sources.",
+      "verdict": "Authentic",
+      "risk_score": 9,
+      "confidence": 0.95,
+      "category": "Academic Research"
+    },
+    {
+      "case_id": "VF012",
+      "domain": "Public Policy",
+      "modality": "Text",
+      "claim": "Official policy documents can be used as primary evidence when checking a policy claim.",
+      "verdict": "Authentic",
+      "risk_score": 7,
+      "confidence": 0.97,
+      "category": "Government"
+    }
+  ]
+}

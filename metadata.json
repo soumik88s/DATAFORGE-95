@@ -1,0 +1,6 @@
+{
+  "name": "DATAFORGE 95",
+  "description": "Windows 95 style interactive data analytics & intelligence platform featuring multi-category datasets, full statistical profiling, anomaly detection, interactive D3 charts, and role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

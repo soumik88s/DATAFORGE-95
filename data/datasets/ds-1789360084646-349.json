@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "id": "ds-1789360084646-349",
+    "name": "Q1_Regional_Sales_Test",
+    "description": "Test verification for file upload and data analysis",
+    "category": "Financial & Banking Systems",
+    "source": "Automated Test Suite",
+    "uploadedBy": "admin",
+    "ownerId": "u-1",
+    "originalFileName": "test_upload.csv",
+    "fileSize": 195,
+    "storagePath": "/app/applet/uploads/test_upload-1789360084635-b4e74cafde58.csv",
+    "createdAt": "2026-09-14T04:28:04.646Z",
+    "updatedAt": "2026-09-14T04:28:04.646Z",
+    "isDemo": false,
+    "isShared": false,
+    "uploadDate": "2026-09-14T04:28:04.646Z",
+    "rowCount": 5,
+    "columnCount": 5,
+    "fileType": "CSV",
+    "processingStatus": "READY",
+    "lastAnalyzedTimestamp": "2026-09-14T04:28:09.617Z",
+    "columns": [
+      {
+        "name": "region",
+        "type": "string",
+        "missingCount": 0,
+        "uniqueCount": 4,
+        "sampleValues": [
+          "North",
+          "South",
+          "East",
+          "West",
+          "North"
+        ]
+      },
+      {
+        "name": "sales",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 5,
+        "sampleValues": [
+          1450.5,
+          2300,
+          1890.25,
+          3100.75,
+          1520
+        ]
+      },
+      {
+        "name": "units",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 5,
+        "sampleValues": [
+          12,
+          20,
+          15,
+          28,
+          13
+        ]
+      },
+      {
+        "name": "satisfaction",
+        "type": "numeric",
+        "missingCount": 0,
+        "uniqueCount": 5,
+        "sampleValues": [
+          4.8,
+          4.2,
+          4.5,
+          4.9,
+          4.7
+        ]
+      },
+      {
+        "name": "date",
+        "type": "date",
+        "missingCount": 0,
+        "uniqueCount": 5,
+        "sampleValues": [
+          "2024-01-10",
+          "2024-01-12",
+          "2024-01-15",
+          "2024-01-18",
+          "2024-01-20"
+        ]
+      }
+    ],
+    "duplicateCount": 0,
+    "qualityScore": {
+      "completeness": 100,
+      "validity": 100,
+      "consistency": 100,
+      "uniqueness": 100,
+      "missingCells": 0,
+      "totalMissingCells": 0,
+      "missingCellsPct": 0,
+      "duplicateRows": 0,
+      "duplicateRowsPct": 0,
+      "outlierCount": 0,
+      "overallScore": 100,
+      "grade": "A",
+      "issues": []
+    }
+  },
+  "records": [
+    {
+      "region": "North",
+      "sales": 1450.5,
+      "units": 12,
+      "satisfaction": 4.8,
+      "date": "2024-01-10"
+    },
+    {
+      "region": "South",
+      "sales": 2300,
+      "units": 20,
+      "satisfaction": 4.2,
+      "date": "2024-01-12"
+    },
+    {
+      "region": "East",
+      "sales": 1890.25,
+      "units": 15,
+      "satisfaction": 4.5,
+      "date": "2024-01-15"
+    },
+    {
+      "region": "West",
+      "sales": 3100.75,
+      "units": 28,
+      "satisfaction": 4.9,
+      "date": "2024-01-18"
+    },
+    {
+      "region": "North",
+      "sales": 1520,
+      "units": 13,
+      "satisfaction": 4.7,
+      "date": "2024-01-20"
+    }
+  ]
+}
